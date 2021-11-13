@@ -1,9 +1,23 @@
 /* Custom properties/variables  */
 :root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
-  --main-blue: #45567d;
-  --main-gray: #303841;
+  --main-white: #bbf1fa;
+  --main-red: #ec4646;
+  --main-blue: #51c2d5;
+  --main-gray: #663f3f;
+}
+
+#foto .thick-green-border {
+  border-color: var(--main-red);
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#foto .smaller-image {
+  width: 100px;
 }
 
 /* Base reset */
